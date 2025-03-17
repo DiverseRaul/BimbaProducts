@@ -5,71 +5,171 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Bimba Products</title>
         <link rel="stylesheet" href="style/style.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lato:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </head>
     <body>
         <header>
-            <div class="header">
+            <div class="header-container">
                 <div class="logo">
                     <img src="Images/BimbaProjects.png" alt="Logo" />
                     <h1>Bimba Products</h1>
                 </div>
-                <div class="nav">
-                </div>
+                <nav class="nav-menu">
+                    <a href="#" class="active">Products</a>
+                    <a href="https://bimba.studio" class="bimba-btn" target="_blank" rel="noopener noreferrer">
+                        <span class="btn-text">Bimba</span>
+                    </a>
+                </nav>
             </div>
         </header>
+        
         <main>
-            <section class="products">
-                <a href="https://weather.bimba.studio" target="_blank" rel="noopener noreferrer">
-                    <div class="product-item">
+            <div class="hero-section">
+                <h2>Discover Our <span class="highlight">Products</span></h2>
+                <p>Explore our suite of innovative tools and applications</p>
+            </div>
+            
+            <section class="products-container">
+                <div class="product-card">
+                    <div class="product-icon">
                         <img src="Images/BimbaWeather.png" alt="Bimba Weather" />
+                    </div>
+                    <div class="product-content">
                         <h3>Bimba Weather</h3>
+                        <p>Real-time weather forecasts and conditions</p>
+                        <div class="product-actions">
+                            <a href="https://weather.bimba.studio" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                                <span>Visit</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
-                </a>
-                <a href="https://tourney.bimba.studio" target="_blank" rel="noopener noreferrer">
-                    <div class="product-item">
-                        <img src="Images/BimbaTourney.png" alt="Bimba Tourney" />
-                        <h3>Bimba Tourney</h3>
-                    </div>
-                </a>
-                <a href="https://bolao.bimba.studio" target="_blank" rel="noopener noreferrer">
-                    <div class="product-item">
-                        <img src="Images/BimbaBolao.png" alt="Bimba Bolao" />
-                        <h3>Bimba Bolao</h3>
-                    </div>
-                </a>
-                <a href="https://bimba.studio" target="_blank" rel="noopener noreferrer">
-                    <div class="product-item">
-                        <img src="Images/BimbaLogo.png" alt="Bimba Grades" />
-                        <h3>Bimba Grades</h3>
-                    </div>
-                </a>
-                <a href="https://bimba.studio" target="_blank" rel="noopener noreferrer">
-                    <div class="product-item">
-                        <img src="Images/BimbaLogo.png" alt="Bimba Calc" />
-                        <h3>Bimba Calc</h3>
-                    </div>
-                </a>
-                <a href="https://puzzleworld.bimba.studio" target="_blank" rel="noopener noreferrer">
-                    <div class="product-item">
-                        <img src="Images/BimbaLogo.png" alt="PuzzleWorld" />
-                        <h3>Puzzle World</h3>
-                    </div>
-                </a>
-                <a href="https://bimba.studio" target="_blank" rel="noopener noreferrer">
-                    <div class="product-item">
-                        <img src="Images/BimbaLogo.png" alt="Echoes from Camp Gordon" />
-                        <h3>EFCG</h3>
-                    </div>
-                </a>
-                <a href="https://products.bimba.studio" target="_blank" rel="noopener noreferrer">
-                    <div class="product-item">
-                        <img src="Images/BimbaProjects.png" alt="Bimba Products" />
-                        <h3>Bimba Products</h3>
-                    </div>
-                </a>
+                </div>
 
+                <div class="product-card">
+                    <div class="product-icon">
+                        <img src="Images/BimbaTourney.png" alt="Bimba Tourney" />
+                    </div>
+                    <div class="product-content">
+                        <h3>Bimba Tourney</h3>
+                        <p>Tournament management and tracking system</p>
+                        <div class="product-actions">
+                            <a href="https://tourney.bimba.studio" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                                <span>Visit</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">
+                        <img src="Images/BimbaBolao.png" alt="Bimba Bolao" />
+                    </div>
+                    <div class="product-content">
+                        <h3>Bimba Bolao</h3>
+                        <p>Soccer prediction platform with leaderboards</p>
+                        <div class="product-actions">
+                            <a href="https://bolao.bimba.studio" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                                <span>Visit</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">
+                        <img src="Images/BimbaLogo.png" alt="Bimba Grades" />
+                    </div>
+                    <div class="product-content">
+                        <h3>Bimba Grades</h3>
+                        <p>Academic grade management system</p>
+                        <div class="product-actions">
+                            <a href="https://bimba.studio" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                                <span>Visit</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">
+                        <img src="Images/BimbaLogo.png" alt="Bimba Calc" />
+                    </div>
+                    <div class="product-content">
+                        <h3>Bimba Calc</h3>
+                        <p>Advanced calculator with specialized functions</p>
+                        <div class="product-actions">
+                            <a href="https://bimba.studio" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                                <span>Visit</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">
+                        <img src="Images/BimbaLogo.png" alt="PuzzleWorld" />
+                    </div>
+                    <div class="product-content">
+                        <h3>Puzzle World</h3>
+                        <p>Collection of brain teasers and puzzles</p>
+                        <div class="product-actions">
+                            <a href="https://puzzleworld.bimba.studio" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                                <span>Visit</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">
+                        <img src="Images/BimbaLogo.png" alt="Echoes from Camp Gordon" />
+                    </div>
+                    <div class="product-content">
+                        <h3>EFCG</h3>
+                        <p>Echoes from Camp Gordon interactive experience</p>
+                        <div class="product-actions">
+                            <a href="https://bimba.studio" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                                <span>Visit</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">
+                        <img src="Images/BimbaProjects.png" alt="Bimba Products" />
+                    </div>
+                    <div class="product-content">
+                        <h3>Bimba Products</h3>
+                        <p>Product showcase and directory</p>
+                        <div class="product-actions">
+                            <a href="https://products.bimba.studio" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                                <span>Visit</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
+        
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 Bimba Studio. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
